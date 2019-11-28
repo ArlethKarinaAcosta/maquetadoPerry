@@ -48,32 +48,62 @@
             <form>
                 <div class="row">
                   <div class="col-md-6 mb-3">
-                    <label>Correo Usuario</label>
+                    <label for="correo"><strong>Correo Usuario:</strong></label>
                     <input type="text" class="form-control" id="" placeholder="" value="Your@gmail.com" required>
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label>Nombre</label>
-                    <input type="text" class="form-control" id="" placeholder="Nombre de la mascota" value="" required>
+                    <label for="nombre"><strong>Nombre:</strong></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre de la mascota" value="" required>
                   </div>
                 </div>
                 <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label>Tipo</label>
-                    <input type="text" class="form-control" id="" placeholder="Tipo de la mascota" value="" required>
+                    <label for="tipoMascota"><strong>Tipo:</strong></label>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="tipoMascota">
+                        <option selected>Elige el tipo de mascota...</option>
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gato</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="conejo">Conejo</option>
+                        <option value="araña">Arañas</option>
+                        <option value="huron">Huron</option>
+                      </select>
+                    </div>
                   </div>
                 <div class="col-md-6 mb-3">
-                    <label>Fecha Cita</label>
-                    <input type="date" class="form-control" id="" placeholder="" value="" required>
+                    <label for="fecha"><strong>Fecha Cita:</strong></label>
+                    <input type="date" class="form-control" id="fecha" placeholder="" value="" required>
                 </div>
                 </div>
                 <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label>Hora de la Cita</label>
-                    <input type="time" class="form-control" id="" placeholder="" value="" required>
+                    <label for="hora"><strong>Hora de la Cita:</strong></label>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="hora">
+                        <option selected>Elige una hora...</option>
+                        <option value="9:00 a.m.">9:00 a.m.</option>
+                        <option value="9:30 a.m.">9:30 a.m.</option>
+                        <option value="10:00 a.m.">10:00 a.m.</option>
+                        <option value="10:30 a.m.">10:30 a.m.</option>
+                        <option value="11:00 a.m.">11:00 a.m.</option>
+                        <option value="11:30 a.m.">11:30 a.m.</option>
+                        <option value="12:00 p.m.">12:00 p.m.</option>
+                        <option value="12:30 p.m.">12:30 p.m.</option>
+                        <option value="1:00 p.m.">1:00 p.m.</option>
+                        <option value="1:30 p.m.">1:30 p.m.</option>
+                        <option value="2:00 p.m.">2:00 p.m.</option>
+                        <option value="5:00 p.m.">5:00 p.m.</option>
+                        <option value="5:30 p.m.">5:30 p.m.</option>
+                        <option value="6:00 p.m.">6:00 p.m.</option>
+                        <option value="6:30 p.m.">6:30 p.m.</option>
+                        <option value="7:00 p.m.">7:00 p.m.</option>
+                      </select>
+                    </div>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <label>Motivo</label>
-                    <textarea class="form-control" id="" placeholder="Motivo de la Cita" value="" required></textarea>
+                    <label for="motivo"><strong>Motivo:</strong></label>
+                    <textarea class="form-control" id="motivo" placeholder="Motivo de la Cita" value="" required></textarea>
                 </div>
                 </div>
                 <h1 class="text-center text-success"><strong>Características de tu mascota</strong></h1>
@@ -84,12 +114,12 @@
                 
                       <div class="row">
                         <div class="col-md-6 mb-3">
-                          <label>Características:</label>
-                          <textarea type="text" class="form-control" id="" placeholder="" value="Your@gmail.com" required></textarea>
+                          <label for="caracteristicas"><strong>Características:</strong></label>
+                          <textarea type="text" class="form-control" id="caracteristicas" placeholder="" value="Your@gmail.com" required></textarea>
                         </div>
                         <div class="col-md-6 mb-3">
-                          <label>Foto:</label>
-                          <input type="text" class="form-control" id="" placeholder="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiCu-Hk6YrmAhUH2qwKHWSXAUcQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.astrolabio.com.mx%2Fperros-mascotas-en-peligro%2F&psig=AOvVaw2HNy9nMuDwfuaiJLeh154w&ust=1574959035663345" value="" required>
+                          <label for="foto"><strong>Foto:</strong></label>
+                          <input type="text" class="form-control" id="foto" placeholder="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiCu-Hk6YrmAhUH2qwKHWSXAUcQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.astrolabio.com.mx%2Fperros-mascotas-en-peligro%2F&psig=AOvVaw2HNy9nMuDwfuaiJLeh154w&ust=1574959035663345" value="" required>
                         </div>
                       </div>
                       
