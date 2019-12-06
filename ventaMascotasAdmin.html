@@ -21,7 +21,8 @@
             <ul class="navbar-nav">
                 <li><a class="nav-link col-md-12 col-sm-6 col-xs-2" href="principalAdmin.html">Home</a></li>
                 <li><a class="nav-link col-md-12 col-sm-6 col-xs-2" href="accesoriosAdmin.html">Accesorios</a></li>
-                <li><a class="nav-link col-md-12 col-sm-6 col-xs-2 active" href="ventaMascotasAdmin.html">Venta de Mascotas</a></li>
+                <li><a class="nav-link col-md-12 col-sm-6 col-xs-2 active" href="ventaMascotasAdmin.html">Venta de
+                        Mascotas</a></li>
                 <li><a class="nav-link col-md-12 col-sm-6 col-xs-2" href="citasAdmin.html">Citas</a></li>
             </ul>
 
@@ -37,107 +38,111 @@
     </nav>
     <br>
     <br>
-    
+
     <div class="container mt-5">
         <h1 class="text-center text-success"><strong>Venta de Mascotas</strong></h1>
         <hr class="featurette-divider">
-        
+
         <div class="col-md-12">
-        
+
             <form>
-                    <div class="row">
-                            <div class="col-md-12 mb-3">
-                                <label><strong>Nombre de la mascota:</strong></label>
-                                <input type="text" class="form-control" id="" placeholder="Perry" value="" required>
-                            </div>
-                        </div>
                 <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label><strong>Nombre de la mascota:</strong></label>
+                        <input type="text" class="form-control" id="" placeholder="Perry" value="" required>
+                    </div>
                     <div class="col-md-6 mb-3">
                         <label><strong>Tipo:</strong></label>
                         <div class="input-group mb-3">
-                                <select class="custom-select" id="tipoMascota">
-                                  <option selected>Elige el tipo de mascota...</option>
-                                  <option value="perro">Perro</option>
-                                  <option value="gato">Gato</option>
-                                  <option value="hamster">Hamster</option>
-                                  <option value="conejo">Conejo</option>
-                                  <option value="araña">Arañas</option>
-                                  <option value="huron">Huron</option>
-                                </select>
-                              </div>
+                            <select class="custom-select" id="tipoMascota">
+                                <option selected>Elige el tipo de mascota...</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="hamster">Hamster</option>
+                                <option value="conejo">Conejo</option>
+                                <option value="araña">Arañas</option>
+                                <option value="huron">Huron</option>
+                            </select>
                         </div>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                   
                     <div class="col-md-6 mb-3">
                         <label><strong>Carateristicas:</strong></label>
                         <textarea class="form-control" id="" placeholder="Caracteristicas" value="" required></textarea>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6 mb-3">
                         <label><strong>Precio:</strong></label>
-                        <input type="text" class="form-control" id="" placeholder="" value="$" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label><strong>Existencias:</strong></label>
-                        <input type="number" min="0" max="3000" step="0" class="form-control" id="" placeholder="" value="" required>
+                        <input type="number" min="0" max="3000" step="0" class="form-control" id="" placeholder=""
+                            value="" required>
                     </div>
                 </div>
                 <div class="row">
+                        <div class="col-md-6 mb-3">
+                                <label><strong>Existencias:</strong></label>
+                                <inpu class="form-control" id="" placeholder="" value="" required>
+                            </div>
                     <div class="col-md-6 mb-3">
                         <label><strong>Peso:</strong></label>
-                        <input type="text" class="form-control" id="" placeholder="Peso de la mascota" value="" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label><strong>Foto:</strong></label>
-                        <textarea class="form-control" id="" placeholder="URL" value="" required></textarea>
+                        <input type="text" class="form-control" id="" placeholder="Peso de la mascota" value=""
+                            required>
                     </div>
                 </div>
-
-                <div class="col-md-12 mb-3 text-center">
-                    <a class="btn btn-lg btn-primary m-2" href="#">Guardar</a>
-                    <a class="btn btn-lg btn-primary m-2" href="#">Cancelar</a>
-                </div>
-              </form>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label><strong>Foto:</strong></label>
+                            <textarea type="text" class="form-control" id="" placeholder="URL" value="" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3 text-center">
+                        <a class="btn btn-lg btn-primary m-2" href="#">Guardar</a>
+                        <a class="btn btn-lg btn-primary m-2" href="#">Cancelar</a>
+                    </div>
+                
+            </form>
         </div>
-        
+
         <table class="table">
-          <thead class="thead-dark">
-            <tr>
-              <th>ID</th>
-              <th>Tipo de Mascota</th>
-              <th>Caracteristicas</th>
-              <th>Precio</th>
-              <th>Existencia</th>
-              <th>Peso</th>
-              <th>Foto</th>
-              <th>Operaciones</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td><a class="btn btn-primary m-1" href="#">Editar</a>
-                    <a class="btn btn-danger m-1" href="#">Eliminar</a></td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td>############</td>
-              <td><a class="btn btn-primary m-1" href="#">Editar</a>
-                    <a class="btn btn-danger m-1" href="#">Eliminar</a></td>
-            </tr>
-          </tbody>
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Tipo de Mascota</th>
+                    <th>Caracteristicas</th>
+                    <th>Precio</th>
+                    <th>Existencia</th>
+                    <th>Peso</th>
+                    <th>Foto</th>
+                    <th>Operaciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td><a class="btn btn-primary m-1" href="#">Editar</a>
+                        <a class="btn btn-danger m-1" href="#">Eliminar</a></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td>############</td>
+                    <td><a class="btn btn-primary m-1" href="#">Editar</a>
+                        <a class="btn btn-danger m-1" href="#">Eliminar</a></td>
+                </tr>
+            </tbody>
         </table>
-        
+
     </div>
     <footer class="ftco-footer ftco-section">
         <div class="container text-center mt-5">
@@ -152,11 +157,11 @@
         </div>
 
     </footer>
-    
-    
+
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+
 
 </body>
 
