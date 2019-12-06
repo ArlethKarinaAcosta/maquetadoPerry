@@ -45,10 +45,26 @@
         <div class="col-md-12">
         
             <form>
+                    <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label><strong>Nombre de la mascota:</strong></label>
+                                <input type="text" class="form-control" id="" placeholder="Perry" value="" required>
+                            </div>
+                        </div>
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label><strong>Tipo:</strong></label>
-                        <input type="text" class="form-control" id="" placeholder="Tipo mascota" value="" required>
+                        <div class="input-group mb-3">
+                                <select class="custom-select" id="tipoMascota">
+                                  <option selected>Elige el tipo de mascota...</option>
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="conejo">Conejo</option>
+                                  <option value="araña">Arañas</option>
+                                  <option value="huron">Huron</option>
+                                </select>
+                              </div>
                         </div>
                     <div class="col-md-6 mb-3">
                         <label><strong>Carateristicas:</strong></label>
@@ -77,7 +93,7 @@
                 </div>
 
                 <div class="col-md-12 mb-3 text-center">
-                    <a class="btn btn-lg btn-primary m-2" href="#">Guadar</a>
+                    <a class="btn btn-lg btn-primary m-2" href="#">Guardar</a>
                     <a class="btn btn-lg btn-primary m-2" href="#">Cancelar</a>
                 </div>
               </form>
